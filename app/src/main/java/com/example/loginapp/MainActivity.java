@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),Login.class));
         finish();
     }
+
+    void testNewUserPush() {
+        Log.d("test","測試用另一個使用者上傳程式");
+    }
 }
