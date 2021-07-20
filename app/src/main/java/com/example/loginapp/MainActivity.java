@@ -21,8 +21,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(),Login.class));
         finish();
     }
-    void testPush() {
-        Log.d("test","測試用push上傳程式")
-    }
-
 }
